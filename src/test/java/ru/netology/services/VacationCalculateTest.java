@@ -14,6 +14,7 @@ public class VacationCalculateTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void testMonthVacation2() {
         VacationCalculate service = new VacationCalculate();
